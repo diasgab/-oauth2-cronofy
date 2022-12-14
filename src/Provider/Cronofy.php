@@ -2,7 +2,7 @@
 
 namespace Diasgab\OAuth2\Client\Provider;
 
-use ApiBundle\Provider\Exception\CronofyIdentityProviderException;
+use Diasgab\OAuth2\Client\Provider\Exception\CronofyIdentityProviderException;
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Token\AccessToken;

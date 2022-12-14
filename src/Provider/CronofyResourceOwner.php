@@ -57,6 +57,14 @@ class CronofyResourceOwner implements ResourceOwnerInterface
     }
 
     /**
+     * @return string
+     */
+    public function getDefaultTimezone()
+    {
+        return $this->getValueByKey($this->response, 'zoneinfo');
+    }
+
+    /**
      * Return all of the owner details available as an array.
      *
      * @return array
